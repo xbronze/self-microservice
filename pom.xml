@@ -11,8 +11,14 @@
 	<groupId>com.xinshi</groupId>
 	<artifactId>microservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>microservices</name>
 	<description>Demo project for Spring Boot</description>
+	<modules>
+		<module>common-api</module>
+		<module>provider-dept-8001</module>
+        <module>consumer-springboot-80</module>
+    </modules>
 
 	<properties>
 		<java.version>17</java.version>
