@@ -26,8 +26,8 @@ spring:
       stat-view-servlet: # 监控界面配置
         enabled: true # 启用druid监控界面
         allow: 127.0.0.1      # 访问白名单
-        login-username: muyan # 用户名
-        login-password: yootk # 密码
+        login-username: xinshi # 用户名
+        login-password: xinshi123 # 密码
         reset-enable: true # 允许重置
         url-pattern: /druid/* # 访问路径
       web-stat-filter:
@@ -49,4 +49,4 @@ spring:
           config: # 防火墙规则
             multi-statement-allow: true # 允许执行批量SQL
             delete-allow: false # 禁止执行删除语句
-      aop-patterns: "com.yootk.provider.action.*,com.yootk.provider.service.*,com.yootk.provider.dao.*" # Spring监控
+      aop-patterns: "com.xinshi.provider.action.*,com.xinshi.provider.service.*,com.xinshi.provider.dao.*" # Spring监控
